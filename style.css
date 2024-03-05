@@ -101,7 +101,6 @@ footer div {
 .footer-links {
     display: flex;
     flex-direction: column;
-    width: 220px;
 }
 
 .footer-list {
