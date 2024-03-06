@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Comme un poisson dans l'eau</title>
+    <meta name="description" content="Page de connexion">
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-navbar">
+            <div class="title-navbar">
+                <img src="/assets/logo.png" alt="Logo de l'école">
+                <h1>Comme un poisson dans l'eau</h1>
+            </div>
+            <nav class="navbar-links">
+                <a href="index.html">Accueil</a>
+                <a href="">Disciplines</a>
+                <a href="">Partenaires</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="login-main-div">
+            <h2 class="form-title">Inscription</h2>
+            <p class="form-description">Veuillez remplir les champs suivants</p>
+            <form class="login-form" action="" method="get" class="form-connection">
+                <div class="form-1 same">
+                    <label for="name">Nom complet : </label><br>
+                    <input type="text" name="name" id="name" required />
+                </div>
+                <div class="form-2 same">
+                    <label for="birthday">Date de naissance : </label>
+                    <input type="date" id="birthday" name="birthday" min="1970-01-01" max="2020-12-31" />
+                </div>
+                <div class="form-3 same">
+                    <label for="telNo">Numéro de téléphone :</label><br>
+                    <input id="telNo" name="telNo" type="tel" required />
+                </div>
+                <div class="form-4 same">
+                    <label for="email">Email : </label><br>
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div class="form-5 same">
+                    <label for="file">Pièce d'identité (format jpeg / jpg / png / pdf)</label><br>
+                    <input type="file" name="file" id="file" accept=".jpeg, .jpg, .png, .pdf" required />
+                </div>
+                <div class="form-6 same">
+                    <label for="file">Justificatif de domicile (format pdf)</label><br>
+                    <input type="file" name="file" id="file" accept=".pdf" required />
+                </div>
+                <fieldset class="form-7 same">
+                    <legend>Pourquoi souhaitez-vous vous inscrire ?</legend>
+                    <div>
+                        <input type="radio" id="learning" name="swim" value="learning" checked />
+                        <label for="learning">Apprendre à nager</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="toPerfect" name="swim" value="toPerfect" />
+                        <label for="toPerfect">Perfectionnement</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="competition" name="swim" value="competition" />
+                        <label for="competition">Compétition</label>
+                    </div>
+                </fieldset>
+
+                <div class="form-8 same">
+                    <input type="submit" value="Inscrivez-vous !" />
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="footer-links">
+                <h3>Réseaux sociaux</h3>
+                <ul class="footer-list">
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Contact</h3>
+                <ul class="footer-list">
+                    <li><a href="">Téléphone</a></li>
+                    <li><a href="">Email</a></li>
+                    <li><a href="">Courrier postal</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Mentions légales</h3>
+                <ul class="footer-list">
+                    <li><a href="">Données personnelles</a></li>
+                    <li><a href="">Limitations de responsabilité</a></li>
+                    <li><a href="">Droits de reproduction</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
