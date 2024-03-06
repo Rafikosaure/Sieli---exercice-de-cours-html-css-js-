@@ -51,6 +51,8 @@ header {
 
 /* Main */
 main {
+    display: flex;
+    justify-content: center;
     height: fit-content;
     margin-top: 100px;
 }
@@ -66,14 +68,8 @@ main {
     margin-right: auto;
 }
 
-.login-main-div {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .login-form {
-    width: 40%;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -174,6 +170,12 @@ footer div {
     }
 
     /* Main */
+    .login-form {
+        margin-left: 4%;
+        margin-right: 4%;
+        display: grid;
+        
+    }
     
     /* Footer */
     footer {
@@ -212,7 +214,14 @@ footer div {
     }
 
     /* Main */
-    
+    .login-form {        
+        display: flex;
+        flex-direction: column;
+    }
+    .form-8 {
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     /* Footer */
     footer {
